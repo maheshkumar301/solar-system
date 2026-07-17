@@ -32,6 +32,14 @@ export default function Overlay({
       <div className="bottom-bar">
         <TimeControls timeScale={timeScale} setTimeScale={setTimeScale} />
       </div>
+
+      {/* Watermarks */}
+      <div className="watermark watermark-left">
+        MK
+      </div>
+      <div className="watermark watermark-right">
+        MK
+      </div>
     </div>
   );
 }

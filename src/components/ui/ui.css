@@ -181,3 +181,24 @@
   min-width: 40px;
   text-align: center;
 }
+
+/* Watermarks */
+.watermark {
+  position: absolute;
+  bottom: 24px;
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--text-primary);
+  opacity: 0.3;
+  letter-spacing: 4px;
+  user-select: none;
+  font-family: var(--font-sans);
+}
+
+.watermark-left {
+  left: 32px;
+}
+
+.watermark-right {
+  right: 32px;
+}
